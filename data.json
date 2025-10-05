@@ -3,15 +3,9 @@
     "wallpaper": "https://bing.img.run/uhd.php",
     "lives": [
         {
-            "group": "redirect",
-            "channels": [
-                {
-                    "name": "live",
-                    "urls": [
-                        "http://tv.bili33.top/output/ipv4/result.m3u"
-                    ]
-                }
-            ]
+          "name": "我的直播源",
+          "type": 0,
+          "url": "http://tv.bili33.top/output/ipv4/result.m3u"
         }
     ],
     "sites": [
