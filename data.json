@@ -1,5 +1,5 @@
 {
-    "spider": "http://tv.laohu.cool/lh250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
+    "spider": "https://cdn.bili33.top/gh/qist/tvbox@master/jar/fan.txt;md5;f6dd09061793aa1f499be0ffebaf5f67",
     "wallpaper": "https://bing.img.run/uhd.php",
     "lives": [
         {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
