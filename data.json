@@ -2,17 +2,8 @@
     "spider": "http://tv.laohu.cool/lh250711.jar;md5;9ab53f593c034c2b80cdc9f4c785a6f3",
     "wallpaper": "https://bing.img.run/uhd.php",
     "lives": [
-        {
-            "group": "redirect",
-            "channels": [
-                {
-                    "name": "live",
-                    "urls": [
-                        "proxy://do=live&type=txt&ext=aHR0cDovL3R2LmJpbGkzMy50b3Avb3V0cHV0L2lwdjQvcmVzdWx0Lm0zdQ=="
-                    ]
-                }
-            ]
-        }
+        {"name": "live","type": 0,"url": "https://epg.pw/test_channels.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+        {"name": "live","type": 0,"url": "http://tv.bili33.top/output/ipv4/result.m3u","playerType": 1,"ua": "okhttp/3.8.1","timeout": 20},
     ],
     "sites": [],
     "parses": [],
