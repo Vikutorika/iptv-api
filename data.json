@@ -3,15 +3,19 @@
     "wallpaper": "https://bing.img.run/uhd.php",
     "lives": [
         {
-          "name": "我的直播源",
-          "type": 0,
-          "url": "http://tv.bili33.top/output/ipv4/result.m3u"
+            "group": "redirect",
+            "channels": [
+                {
+                    "name": "live",
+                    "urls": [
+                        "proxy://do=live&type=txt&ext=aHR0cDovL3R2LmJpbGkzMy50b3Avb3V0cHV0L2lwdjQvcmVzdWx0Lm0zdQ=="
+                    ]
+                }
+            ]
         }
     ],
-    "sites": [
-    ],
-    "parses": [
-    ],
+    "sites": [],
+    "parses": [],
     "flags": [
         "youku",
         "qq",
@@ -195,6 +199,5 @@
             ]
         }
     ],
-    "ads": [
-    ]
+    "ads": []
 }
